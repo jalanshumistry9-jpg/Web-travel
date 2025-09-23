@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+ 
+<style>
+      
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-section {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image {
+  flex: 1 1 400px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1 1 400px;
+}
+
+.about-text h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #111;
+}
+
+.about-text p {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    margin-top: 30px;
+  }
+}
+
+</style>
+<body>
+  <section class="about-section">
+    <div class="container">
+      <h1>About Us</h1>
+      <p class="tagline">Your adventure begins here. We turn travel dreams into real journeys.</p>
+
+      <div class="about-content">
+        <img src="pic1.jpg" alt="Our Team" class="about-image" />
+        <div class="about-text">
+          <h2>Our Story</h2>
+          <p>
+            Founded in 2024, At WanderWorld Travel, we're a team of explorers, storytellers, and travel planners
+            who believe that the best memories are made on the road. Since 2018, we've been helping
+            travelers discover the beauty of the world — from hidden gems to iconic destinations.
+          </p>
+
+          <h2>Our Mission</h2>
+          <p>
+           With a deep network of local guides, global partners, and a passion for authenticity,
+            we offer personalized itineraries, seamless planning, and unforgettable adventures.
+            Let us handle the details — you focus on the journey.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
